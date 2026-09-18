@@ -18,50 +18,6 @@ The platform monitors electricity consumption in real time, allows users to cont
 
 A key part of the project is the combination of **source optimization** and **load optimization**. Solar PV, Battery, and Grid are considered as available energy sources, while household loads are prioritized according to their importance.
 
----
-
-## Problem Statement
-
-The project was developed by considering several practical energy-related problems in Bangladesh.
-
-### 1. Meter and Line Tampering
-
-Unauthorized electrical connections, line tampering, and meter tampering can create energy loss, inaccurate billing, and difficulty in monitoring actual electricity consumption.
-
-The smart metering section of this project provides real-time electrical data that can later be used for **abnormal-consumption analysis and advanced tamper-detection methods**.
-
-### 2. Unnecessary Household Energy Consumption
-
-People often leave home in a hurry while lights, fans, or other electrical appliances remain switched on. This creates unnecessary electricity consumption and increases electricity costs.
-
-The **Home Automation System** allows the user to monitor and control connected household appliances remotely through a web application while still keeping physical switch/button control.
-
-### 3. Inefficient Use of Available Energy
-
-During periods of high demand or limited available supply, efficient energy management becomes important.
-
-Instead of depending only on the utility grid, the proposed system combines:
-
-- **Solar PV**
-- **Battery Storage**
-- **Utility Grid**
-
-The system is designed to intelligently select the most suitable source and use the available energy efficiently.
-
-### 4. Distribution Energy Loss
-
-According to the **Bangladesh Power Division**, electricity distribution loss was **7.38% in FY 2024–25**. The same 7.38% distribution-loss figure is also reported by **Power Cell** for June 2025.
-
-This highlights the importance of better monitoring, optimization, and intelligent energy-management technologies.
-
-**Official References**
-
-- Bangladesh Power Division — System Loss:  
-  https://powerdivision.gov.bd/pages/static-pages/694032ba35ce18e1c056155a
-- Power Cell — Power Sector at a Glance:  
-  https://powercell.gov.bd/pages/static-pages/6922df55933eb65569e21443
-
----
 
 ## Project Objectives
 
@@ -347,41 +303,6 @@ The hybrid system manages Solar PV, Battery, and Grid sources and combines sourc
 
 The project is currently implemented as a prototype using separate hardware sections. The next stage is to combine these sections into a more compact and product-oriented design.
 
----
-
-# Project Innovation
-
-The main focus of this project is not only to monitor electricity consumption but to combine **measurement, control, source management, and load management** within a single smart-energy platform.
-
-```text
-Energy Monitoring
-       +
-Home Automation
-       +
-Hybrid Energy Management
-       +
-ML-Based Source Optimization
-       +
-Load Prioritization
-       =
-Smart Energy Optimization Platform
-```
-
-The project addresses both:
-
-**Supply Side**
-- Solar PV
-- Battery
-- Grid
-- Intelligent source selection
-
-**Demand Side**
-- Household appliances
-- Remote control
-- Load prioritization
-- Reduction of unnecessary consumption
-
----
 
 # Prototype Images
 
@@ -394,53 +315,6 @@ Add your project photographs in an `images` folder and replace the example paths
 ![Hybrid Energy Management](images/hybrid-energy-management.jpg)
 ![Web Dashboard](images/web-dashboard.jpg)
 ```
-
----
-
-# Future Development
-
-The current prototype is running and demonstrates the core concept of the project.
-
-The next phase is to develop the prototype into a more compact and integrated product.
-
-```text
-Current Working Prototype
-          │
-          ▼
-Integration of Three Systems
-          │
-          ▼
-Compact 3D Product Design
-          │
-          ▼
-Custom PCB Development
-          │
-          ▼
-Integrated Hardware + Software
-          │
-          ▼
-Field Testing and Improvement
-          │
-          ▼
-Commercial Product Development
-```
-
-Future improvements include:
-
-- Integrating the Smart Energy Meter, Home Automation Controller, and Hybrid Energy Management System into one product.
-- Designing a compact **3D enclosure**.
-- Developing a **custom PCB** instead of prototype wiring.
-- Improving ML-based source optimization.
-- Improving load-prioritization logic.
-- Developing advanced meter and line-tampering detection.
-- Improving battery-management functionality.
-- Adding solar-generation forecasting.
-- Improving system safety, reliability, and measurement accuracy.
-- Conducting real-home field trials.
-- Preparing the system for residential and small-commercial applications.
-- Moving toward commercial production and market deployment.
-
----
 
 # Expected Impact
 
@@ -455,54 +329,19 @@ The project aims to contribute to:
 - Better utilization of limited available energy through load prioritization.
 - Development of intelligent residential energy-management solutions.
 
----
-
-# Repository Contents
-
-```text
-AI-Powered-Energy-Optimization-Platform/
-│
-├── README.md
-├── Codes/
-│   ├── Smart_Energy_Meter/
-│   ├── Home_Automation/
-│   └── Hybrid_Energy_Management/
-├── Web_App/
-├── ML_Model/
-├── Images/
-│   ├── Prototype/
-│   ├── Dashboard/
-│   └── Circuit_Diagrams/
-└── Documentation/
-    └── Project_Summary.pdf
-```
-
----
-
-# Safety Note
-
-This project involves electrical measurement and switching.
-
-The prototype should only be operated with appropriate electrical isolation, protection, correctly rated switching devices, and safe enclosures. Direct work with mains electricity can cause serious injury, electric shock, fire, or equipment damage.
-
-The current prototype is intended for research, demonstration, and development purposes. A commercial version would require proper electrical protection, compliance testing, and certification.
-
----
 
 # Team
 
 **Project Name:** AI-Powered Energy Optimization Platform for Smart Homes
 
-**Team Leader:**  
-`[Name]`
-
 **Team Members:**  
-`[Member Name]`  
-`[Member Name]`  
-`[Member Name]`
+`[MD. Rased Khan]`  
+`[Md. Sultanul Arefin Akil]`  
+`[Md. Mostafizur Rahaman]`
+`[Ridowanul Islam]`
 
 **Institution:**  
-`[University / Department Name]`
+`[University of Chittagong]`
 
 ---
 
@@ -519,24 +358,3 @@ The current prototype is intended for research, demonstration, and development p
 - Smart Grid
 - Demand-Side Management
 
----
-
-## Final Goal
-
-The long-term goal of this project is to develop a **single compact smart-energy device** that can monitor household energy, control appliances, intelligently manage Solar–Battery–Grid sources, prioritize loads according to available power, and provide users with a unified web-based monitoring and control platform.
-
----
-
-## References
-
-1. **Bangladesh Power Division — System Loss**  
-   https://powerdivision.gov.bd/pages/static-pages/694032ba35ce18e1c056155a
-
-2. **Power Cell — Power Sector at a Glance**  
-   https://powercell.gov.bd/pages/static-pages/6922df55933eb65569e21443
-
----
-
-### Project Status
-
-**Prototype developed and running. Further integration, PCB development, 3D enclosure design, field testing, and product development are planned.**
