@@ -3,6 +3,9 @@
 > An integrated smart-energy platform combining **Smart Energy Metering, IoT-Based Home Automation, Hybrid Solar–Battery–Grid Energy Management, ML-Based Source Optimization, and Priority-Based Load Management**.
 
 ---
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/ad232dc7-b096-4ff7-a9ee-56990dca8835" width="500" alt="Project Image">
+</p>
 
 ## Project Overview
 
@@ -303,18 +306,23 @@ The hybrid system manages Solar PV, Battery, and Grid sources and combines sourc
 
 The project is currently implemented as a prototype using separate hardware sections. The next stage is to combine these sections into a more compact and product-oriented design.
 
+## 📸 Project Gallery
 
-# Prototype Images
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/e6cac07d-fb68-4177-94a3-b7bfa7c6aaa1" width="48%" alt="Project Image 1">
+  <img src="https://github.com/user-attachments/assets/aab1cea3-1d3b-4c42-b250-db4827b39758" width="48%" alt="Project Image 2">
+</p>
 
-Add your project photographs in an `images` folder and replace the example paths below.
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/40a0373e-9dcf-47e8-b7e4-055aea07b07f" width="48%" alt="Project Image 3">
+  <img src="https://github.com/user-attachments/assets/61824a7b-94ac-40b9-a8ea-201d89db03dd" width="48%" alt="Project Image 4">
+</p>
 
-```markdown
-![Complete Prototype](images/complete-prototype.jpg)
-![Smart Energy Meter](images/smart-energy-meter.jpg)
-![Home Automation](images/home-automation.jpg)
-![Hybrid Energy Management](images/hybrid-energy-management.jpg)
-![Web Dashboard](images/web-dashboard.jpg)
-```
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fef35ce5-8833-4b33-928c-dc8b4757cb26" width="48%" alt="Project Image 5">
+  <img src="https://github.com/user-attachments/assets/fef9e1a9-0acb-4a6a-914f-e299e1c6e177" width="48%" alt="Project Image 6">
+</p>
+
 
 # Expected Impact
 
